@@ -6,7 +6,7 @@ public class Main {
 		JFrame frame = new JFrame();
 		//create and add a button to frame
 		JButton button = new JButton("Hello");
-		frame.add(button);
+		frame.getContentPane().add(button);
 		//add listener to the closing button
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//give a size to the frame
