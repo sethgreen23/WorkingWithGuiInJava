@@ -44,7 +44,7 @@ public class AnimationFirstTry {
 		frame.setSize(400,400);
 		frame.setVisible(true);
 
-		for(int i=0;i<frame.getHeight();i++) {
+		for(int i=0;i<frame.getWidth();i++) {
 			x++;
 			y++;
 			p.repaint();
