@@ -406,6 +406,8 @@ public class Client {
 
 		@Override
 		public void valueChanged(ListSelectionEvent e) {
+			//explaining what does getValueIsAdjusting() function
+			//https://stackoverflow.com/questions/10860419/what-exactly-does-getvalueisadjusting-do
 			if(!e.getValueIsAdjusting()) {
 				String message = (String)messageList.getSelectedValue();
 				if(message!=null) {
